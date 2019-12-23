@@ -102,18 +102,13 @@
                         <li class="<?php echo isset($open) && $open == 'admin' ? 'active' : '' ?>">
                             <a href="<?php echo modules("admin") ?>"><i class="fa fa-user"></i> Admin</a>
                         </li>
+                        <li class="<?php echo isset($open) && $open == 'transaction' ? 'active' : '' ?>">
+                            <a href="<?php echo modules("transaction") ?>"><i class="fa fa-user"></i> Quản lý đơn hàng </a>
+                        </li>
                         <li class="<?php echo isset($open) && $open == 'user' ? 'active' : '' ?>">
                             <a href="<?php echo modules("user") ?>"><i class="fa fa-user"></i> Thành viên</a>
                         </li>
-                        <li>
-                            <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
-                        </li>
-                        <li>
-                            <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
-                        </li>
+                        
                         <li>
                             <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo" class="collapse">
