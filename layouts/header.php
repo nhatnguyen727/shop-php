@@ -134,38 +134,7 @@
                     <div class="col-md-3  fixside" >
                         <div class="box-left box-menu" >
                             <h3 class="box-title"><i class="fa fa-list"></i>  Danh mục</h3>
-                            <!-- <ul>
-                                <li>
-                                    <a href="">Máy tính  <span class="badge pull-right">14</span></a>
-                                    <ul>
-                                        <li><a href=""> Sonny 1</a></li>
-                                        <li><a href=""> Sonny 2</a></li>
-                                        <li><a href=""> Sonny 3</a></li>
-                                        <li><a href=""> Sonny 4</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">Máy giặt  <span class="badge pull-right">14</span></a>
-                                    <ul>
-                                        <li><a href=""> Sonny 1</a></li>
-                                        <li><a href=""> Sonny 2</a></li>
-                                        <li><a href=""> Sonny 3</a></li>
-                                        <li><a href=""> Sonny 4</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">Đồ điện  <span class="badge pull-right">14</span></a>
-                                </li>
-                                <li>
-                                    <a href=""> Thiết bị văn phòng  <span class="badge pull-right">14</span> </a>
-                                    <ul>
-                                        <li><a href=""> Sonny 1</a></li>
-                                        <li><a href=""> Sonny 2</a></li>
-                                        <li><a href=""> Sonny 3</a></li>
-                                        <li><a href=""> Sonny 4</a></li>
-                                    </ul>
-                                </li>
-                            </ul> -->
+                            
                             <ul>
                                 <?php foreach($category as $item) :?>
                                 <li><a href="danh-muc-sp.php?id=<?php echo $item['id'] ?>"><?php echo $item['name'] ?></a></li>

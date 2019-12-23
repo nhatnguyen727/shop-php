@@ -5,7 +5,7 @@
 
     $db = new Database;
 
-    define('ROOT',$_SERVER['DOCUMENT_ROOT']."/shop/public/uploads/");
+    define('ROOT',$_SERVER['DOCUMENT_ROOT']."/shop-php/public/uploads/");
 
 
     $category = $db ->fetchAll("category");

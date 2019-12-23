@@ -22,7 +22,7 @@
                 $id_insert = $db ->insert("orders",$data2);
             }
             unset($_SESSION['cart']);
-        unset($_SESSION['total']);
+            unset($_SESSION['total']);
             $_SESSION['success'] = " Lưu thông tin đơn hàng thành công ! Chúng tôi sẽ liên hệ với bạn sớm nhất ";
             header("location: thong-bao.php");
         }

@@ -5,8 +5,8 @@
         </div>
         <!-- /#wrapper -->
         <!-- jQuery -->
-        <script src="/shop/public/admin/js/jquery.js"></script>
+        <script src="/shop-php/public/admin/js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
-        <script src="/shop/public/admin/js/bootstrap.min.js"></script>
+        <script src="/shop-php/public/admin/js/bootstrap.min.js"></script>
     </body>
 </html>

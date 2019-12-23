@@ -1,6 +1,10 @@
 <?php
     require_once __DIR__. "/autoload/autoload.php";
     $sum =0;
+
+    if( ! isset($_SESSION['cart']) || count($_SESSION['cart'] == 0)){
+        echo "<script>alert(' Không có sản phẩm trong giỏ hàng');location.href='gio-hang.php'</script>";
+    }
 ?>
 <?php require_once __DIR__. "/layouts/header.php"; ?>
 
