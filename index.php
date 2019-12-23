@@ -1,7 +1,7 @@
 <?php
     require_once __DIR__. "/autoload/autoload.php";
     // unset($_SESSION['cart']);
-    $sqlHomeCate = "SELECT name, id FROM  category WHERE home = 1 ORDER BY updated_at";
+    $sqlHomeCate = "SELECT name, id FROM category WHERE home = 1 ORDER BY updated_at";
     $categoryHome = $db -> fetchsql($sqlHomeCate);
 
     $date = [];
@@ -11,6 +11,7 @@
         $productHome = $db ->fetchsql($sql);
         $data[$item['name']] =$productHome;
     }
+  
 ?>
 <?php require_once __DIR__. "/layouts/header.php"; ?>
 

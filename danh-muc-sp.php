@@ -1,6 +1,6 @@
 <?php
     require_once __DIR__. "/autoload/autoload.php";
-
+    
     $id = intval((getInput('id')));
     $editCategory = $db->fetchID("category",$id);
     
@@ -17,6 +17,7 @@
     unset($product['page']);
 
     $path = $_SERVER['SCRIPT_NAME'];
+    
 ?>
 <?php require_once __DIR__. "/layouts/header.php"; ?>
 

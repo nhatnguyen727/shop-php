@@ -8,6 +8,7 @@
             'users_id' => $_SESSION['name_id'],
             'note' => postInput("note")
         ];
+        _debug($data);
         $idtran = $db -> insert("transaction",$data);
         if($idtran > 0){
             foreach($_SESSION['cart'] as $key => $values){
