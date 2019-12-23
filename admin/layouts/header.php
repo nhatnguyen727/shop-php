@@ -102,6 +102,9 @@
                         <li class="<?php echo isset($open) && $open == 'admin' ? 'active' : '' ?>">
                             <a href="<?php echo modules("admin") ?>"><i class="fa fa-user"></i> Admin</a>
                         </li>
+                        <li class="<?php echo isset($open) && $open == 'user' ? 'active' : '' ?>">
+                            <a href="<?php echo modules("user") ?>"><i class="fa fa-user"></i> Thành viên</a>
+                        </li>
                         <li>
                             <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
                         </li>

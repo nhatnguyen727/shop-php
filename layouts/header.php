@@ -34,7 +34,7 @@
                                             <a href=""><i class="fa fa-user"></i> Tài khoản <i class="fa fa-caret-down"></i></a>
                                             <ul id="header-submenu">
                                                 <li><a href="">Thông tin</a></li>
-                                                <li><a href="">Giỏ hàng</a></li>
+                                                <li><a href="gio-hang.php">Giỏ hàng</a></li>
                                                 <li><a href="thoat.php"><i class="fa fa-share-square-o"></i> Thoát</a></li>
                                             </ul>
                                         </li>
@@ -44,7 +44,7 @@
                                             <a href="dang-nhap.php"><i class="fa fa-unlock"></i> Đăng nhập</a>
                                             </li>
                                             <li>
-                                            <a href="dang-ky.php"><i class="fa fa-unlock"></i> Đăng ký</a>
+                                            <a href="dang-ky.php"><i class="fa fa-user"></i> Đăng ký</a>
                                             </li>
                                         <?php endif; ?>
                                     </ul>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="col-md-4">
                             <a href="">
-                            <img src="images/logo-default.png">
+                            <img src="<?php echo base_url() ?>public/fontend/images/logo-default.png">
                             </a>
                         </div>
                         <div class="col-md-3" id="header-right">
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="pull-right">
                                     <p id="hotline">HOTLINE</p>
-                                    <p>0986420994</p>
+                                    <p>0913052672</p>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                 <div class="container">
                     <nav>
                         <div class="home pull-left">
-                            <a href="">Trang chủ</a>
+                            <a href="index.php">Trang chủ</a>
                         </div>
                         <!--menu main-->
                         <ul id="menu-main">
@@ -121,7 +121,7 @@
                         <!--Shopping-->
                         <ul class="pull-right" id="main-shopping">
                             <li>
-                                <a href=""><i class="fa fa-shopping-basket"></i> My Cart </a>
+                                <a href="gio-hang.php"><i class="fa fa-shopping-basket"></i> My Cart </a>
                             </li>
                         </ul>
                         <!--end Shopping-->

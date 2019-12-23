@@ -1,5 +1,8 @@
 <?php
     require_once __DIR__. "/autoload/autoload.php";
+    if(isset($_SESSION['name_id'])){
+        echo "<script>alert('Bạn đã có tài khoản nên không thể vào đây ');location.href='index.php'</script>";
+    }
     $data = 
         [
             "name" => postInput('name'),

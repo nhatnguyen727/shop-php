@@ -101,7 +101,7 @@
     function base_url()
     {
         // return $url  = "http://codedoan.com/"; 
-        return $url  = "http://localhost/shop/"; 
+        return $url  = "http://localhost/shop-php/"; 
     }
 
 
@@ -172,5 +172,15 @@
         return formatPrice($price);
     }
 
+    function sale($number){
+        $number = intval($number);
+        if($number < 5000000){
+            return 0;
+        }else if($number < 10000000){
+            return 5;
+        }else{
+            return 10;
+        }
+    }
 
  ?>
